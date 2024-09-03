@@ -1,3 +1,8 @@
+:root {
+    --primary: #0d98f1;
+    --secondary: #042494;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-display: swap;
@@ -6,7 +11,7 @@ body {
 }
 
 .contact-info {
-    min-height: 90vh;
+    min-height: 90vh
 }
 
 .padding-5vh {
@@ -45,7 +50,7 @@ h2.InstName {
 }
 
 .form-group {
-    margin-bottom: 0.5rem
+    margin-bottom: .5rem
 }
 
 #ui_notifIt {
@@ -247,64 +252,57 @@ p.alert {
 
 .contact {
     padding: 4%;
-    height: 400px;
+    height: 400px
 }
 
 .left-side {
-    background: #ff9b00;
+    background: #ff9b00
 }
 
 .right-side {
-    background: #fff;
+    background: #fff
 }
 
 .box-shadow-15 {
     box-shadow: 0 0 15px #CCC;
     border-radius: 8px;
-    min-height: 80vh;
+    min-height: 80vh
 }
 
 .InstLogo img {
     max-height: 50px;
     display: block;
     margin: 0 auto;
-    max-width: 85%;
+    max-width: 85%
 }
 
 .form-control[readonly] {
-    background: none;
+    background: none
 }
 
-/* .copyright {
-    position: absolute;
-    bottom: 2rem;
-    left: 3rem;
-    font-weight: 700;
-} */
-
 #LeftSide {
-    background-color: #E31E24;
+    background-color: var(--secondary);
 }
 
 .lil-darker {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7)
 }
 
 .heading {
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .noScriptWindow {
-    display: none;
+    display: none
 }
 
 .QuestionBtn {
     border: 1px solid;
-    padding: 0px 3.5px;
+    padding: 0 3.5px;
     border-radius: 50%;
     margin-left: 5px;
-    font-size: smaller;
+    font-size: smaller
 }
 
 .fade-scale {
@@ -312,24 +310,24 @@ p.alert {
     opacity: 0;
     -webkit-transition: all .25s linear;
     -o-transition: all .25s linear;
-    transition: all .25s linear;
+    transition: all .25s linear
 }
 
 .fade-scale.show {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1)
 }
 
 .minus-space {
-    margin-left: -3px;
+    margin-left: -3px
 }
 
 td {
-    padding: 0.55rem 0.75rem !important;
+    padding: .55rem .75rem !important
 }
 
 .highlighted {
-    background: #FF6;
+    background: #FF6
 }
 
 .bootbox .modal-footer {
@@ -349,13 +347,13 @@ td {
 .FooterLinks {
     text-align: justify;
     margin: 15px 0 -30px;
-    font-size: 12px;
+    font-size: 12px
 }
 
 .BlogLinkImg {
     max-height: 207px;
     overflow-y: hidden;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 lite-youtube {
@@ -441,10 +439,10 @@ lite-youtube.lyt-activated>.lty-playbtn {
 
 .QuestionBtn {
     border: 1px solid;
-    padding: 0px 3.5px;
+    padding: 0 3.5px;
     border-radius: 50%;
     margin-left: 5px;
-    font-size: smaller;
+    font-size: smaller
 }
 
 .fade-scale {
@@ -452,22 +450,22 @@ lite-youtube.lyt-activated>.lty-playbtn {
     opacity: 0;
     -webkit-transition: all .25s linear;
     -o-transition: all .25s linear;
-    transition: all .25s linear;
+    transition: all .25s linear
 }
 
 .fade-scale.show {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1)
 }
 
 .minus-space {
-    margin-left: -3px;
+    margin-left: -3px
 }
 
 .accordion {
     height: 500px;
     overflow: auto;
-    padding-right: 25px;
+    padding-right: 25px
 }
 
 .accordion .card {
@@ -546,10 +544,9 @@ lite-youtube.lyt-activated>.lty-playbtn {
 }
 
 .odd-bg {
-    background: #FAFAFA;
+    background: #FAFAFA
 }
 
-/*Press Media CSS*/
 @media (max-width: 768px) {
     .carousel-inner .carousel-item>div {
         display: none
@@ -587,12 +584,11 @@ lite-youtube.lyt-activated>.lty-playbtn {
 .media-coverage-img {
     box-shadow: 0 0 5px #ccc;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px
 }
 
-
-
-#Issuer , #PaymentMode{
+#Issuer,
+#PaymentMode {
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -607,15 +603,38 @@ lite-youtube.lyt-activated>.lty-playbtn {
     background-clip: padding-box;
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
-.btn.btn-success{
-    width: 100%;
+
+.btn.btn-success {
+    width: 100%
 }
-.contact-info div.row a.bg-white{
-    width: 100%;
+
+.contact-info div.row a.bg-white {
+    width: 100%
 }
-.toplogo{
+
+.toplogo {
     width: auto;
-    height: 60px;
+    height: 75px
 }
+.leftContentLinks a.lil-darker{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.leftContentLinks span{
+    color: #fff;
+}
+.footerSocial a.lil-darker{
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.form-group button.btn.btn-success{
+    background-color: var(--primary);
+}
+
